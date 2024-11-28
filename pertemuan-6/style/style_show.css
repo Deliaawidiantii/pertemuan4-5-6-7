@@ -1,0 +1,64 @@
+/* style/style_regis.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #343a40;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #808D7C;
+    color: white;
+}
+
+td {
+    background-color: #ffffff;
+    color: #343a40;
+    border-top: 1px solid #e3e3e3;
+}
+
+tr:hover td {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #5F6F65;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+td a {
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #5F6F65;
+}
+
+td a:hover {
+    background-color: #5F6F65;
+    color: white;
+}

@@ -1,0 +1,70 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif; /* Font yang digunakan untuk teks */
+    background-color: #f4f4f9; /* Warna latar belakang halaman */
+    display: flex; /* Menyusun halaman dengan flexbox */
+    justify-content: center; /* Menyusun elemen di tengah secara horizontal */
+    align-items: center; /* Menyusun elemen di tengah secara vertikal */
+    height: 100vh; /* Memastikan konten selalu berada di tengah halaman */
+    margin: 0; /* Menghapus margin default */
+}
+
+.container {
+    background-color: #B3C8CF; /* Warna latar belakang form */
+    padding: 30px; /* Memberi jarak antara konten dan border form */
+    border-radius: 8px; /* Membuat sudut form melengkung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus pada form */
+    width: 100%; /* Form akan mengambil 100% lebar dari elemen induknya */
+    max-width: 500px; /* Membatasi lebar form agar tidak terlalu lebar */
+}
+
+h2 {
+    text-align: center; /* Memusatkan judul form */
+    margin-bottom: 20px; /* Memberikan jarak di bawah judul */
+    color: #333; /* Warna teks untuk judul */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column; /* Mengatur form untuk tampil secara vertikal */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Memberikan jarak antar elemen form */
+}
+
+label {
+    font-size: 14px; /* Ukuran font untuk label */
+    color: #555; /* Warna label */
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%; /* Input dan select akan mengambil 100% lebar dari kontainer */
+    padding: 10px; /* Memberikan jarak di dalam input */
+    margin-top: 5px; /* Memberikan jarak antara label dan input */
+    border: 1px solid #ccc; /* Border input dengan warna abu-abu */
+    border-radius: 5px; /* Membuat sudut input melengkung */
+    background-color: #f9f9f9; /* Warna latar belakang input */
+    font-size: 16px; /* Ukuran font di dalam input */
+}
+
+button[type="submit"] {
+    padding: 12px; /* Memberikan jarak di dalam tombol */
+    margin-top: 10px; /* Memberikan jarak antara input terakhir dan tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    font-size: 16px; /* Ukuran font tombol */
+    cursor: pointer; /* Mengubah kursor saat tombol dihover */
+    transition: background-color 0.3s; /* Memberikan efek transisi saat tombol dihover */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Mengubah warna tombol saat dihover */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px; /* Memberikan jarak di sebelah kanan checkbox */
+}
